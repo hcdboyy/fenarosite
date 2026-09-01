@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 850">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#061a36"/>
+      <stop offset=".62" stop-color="#0a2d5e"/>
+      <stop offset="1" stop-color="#1d5d22"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="850" fill="url(#bg)"/>
+  <circle cx="1260" cy="180" r="220" fill="#f2b400" opacity=".16"/>
+  <circle cx="250" cy="720" r="260" fill="#2f7d2f" opacity=".18"/>
+  <text x="800" y="365" text-anchor="middle" font-family="Arial, sans-serif"
+        font-size="92" font-weight="800" fill="#ffffff">MANNSCHAFTSFOTO</text>
+  <text x="800" y="445" text-anchor="middle" font-family="Arial, sans-serif"
+        font-size="34" fill="#dce7f4">Hier kann später euer Teamfoto eingefügt werden</text>
+  <rect x="560" y="520" rx="25" ry="25" width="480" height="76" fill="#f2b400"/>
+  <text x="800" y="571" text-anchor="middle" font-family="Arial, sans-serif"
+        font-size="26" font-weight="700" fill="#061a36">assets/team/mannschaft.jpg</text>
+</svg>

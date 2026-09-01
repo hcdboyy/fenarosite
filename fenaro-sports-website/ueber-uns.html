@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Fenaro Sports – polysportiver Verein mit Sitz in Gossau ZH.">
+<title>Über uns · Fenaro Sports</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container nav">
+    <a class="brand" href="index.html">
+      <img src="assets/fenaro-sports-logo.jpg" alt="Fenaro Sports Logo">
+      <span>FENARO SPORTS</span>
+    </a>
+    <button class="menu-btn" aria-label="Menü öffnen" aria-expanded="false">☰</button>
+    <nav class="nav-links">
+      <a href="index.html" data-page="start">Startseite</a>
+      <a href="verein.html" data-page="verein">Verein</a>
+      <a href="team.html" data-page="team">Team</a>
+      <a href="ueber-uns.html" data-page="ueber">Über uns</a>
+    </nav>
+  </div>
+</header>
+
+
+<main>
+<section class="page-hero">
+  <div class="container">
+    <div class="eyebrow">Über uns</div>
+    <h1>Mehr als nur eine Sportart.</h1>
+    <p>Fenaro Sports wurde mit der Idee gegründet, sportliche Gemeinschaft nicht auf eine einzelne Disziplin zu beschränken.</p>
+  </div>
+</section>
+
+<section class="section section-cream">
+  <div class="container split">
+    <div class="panel">
+      <h2>Unsere Idee</h2>
+      <p>Bei Fenaro Sports steht nicht eine bestimmte Sportart im Mittelpunkt. Je nach Aktivität, Anlass oder Interesse können unterschiedliche Sportarten ausgeübt werden.</p>
+      <p>So bleibt der Verein flexibel und bietet immer wieder neue sportliche Erlebnisse.</p>
+    </div>
+    <div class="panel dark">
+      <h2>Was uns wichtig ist</h2>
+      <p>Der sportliche Gedanke geht für uns über Resultate hinaus. Entscheidend sind gemeinsames Erleben, Verlässlichkeit, Fairness und Freude an Bewegung.</p>
+      <ul class="list-clean">
+        <li><span class="tick">✓</span><span>Sportliche Vielfalt ohne feste Disziplin</span></li>
+        <li><span class="tick">✓</span><span>Gemeinschaftlicher und respektvoller Umgang</span></li>
+        <li><span class="tick">✓</span><span>Gemeinsam organisierte Aktivitäten und Anlässe</span></li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section section-green">
+  <div class="container">
+    <div class="section-head">
+      <div class="eyebrow">Seit 2026</div>
+      <h2>Die Entstehung von Fenaro Sports.</h2>
+      <p>Der Verein wurde mit dem Ziel gegründet, sportlich flexibel zu bleiben und eine gemeinsame Plattform für unterschiedliche Aktivitäten zu schaffen.</p>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item"><div class="year">2026</div><p>Gründung von Fenaro Sports mit Sitz in Gossau ZH und dem Ziel, einen vielseitigen, polysportiven Verein aufzubauen.</p></div>
+      <div class="timeline-item"><div class="year">Heute</div><p>Der Fokus liegt auf dem Vereinsleben, gemeinsamen sportlichen Aktivitäten und einer klaren, informativen Aussendarstellung.</p></div>
+    </div>
+  </div>
+</section>
+</main>
+
+
+<footer class="site-footer">
+  <div class="container footer-row">
+    <div>
+      <div class="footer-brand">FENARO SPORTS</div>
+      <div class="small">Polysportiver Verein · Gossau (ZH)</div>
+    </div>
+    <div class="small">© 2026 Fenaro Sports</div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+<script>
+document.querySelectorAll('.nav-links a').forEach(a=>{if(a.dataset.page==='ueber')a.classList.add('active')})
+</script>
+</body>
+</html>

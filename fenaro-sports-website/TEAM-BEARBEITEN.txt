@@ -1,0 +1,25 @@
+FENARO SPORTS – TEAM-KACHELN
+
+In team.html sind 15 Mannschaftsplätze vorbereitet.
+
+Aktuell sichtbar:
+01 Fabian Storz
+02 Nils Epper
+03 Nico Staub
+04 Liam Broder
+
+Vorbereitet, aber auskommentiert:
+05 bis 15
+
+So fügst du einen neuen Spieler hinzu:
+1. team.html öffnen.
+2. Nach "SPIELER 05", "SPIELER 06" usw. suchen.
+3. Die Kommentarzeichen <!-- und --> um die gewünschte Kachel entfernen.
+4. "Name Spieler XX" ersetzen.
+5. "Position / Funktion" ersetzen, z. B. Captain, Stürmer, Verteidiger, Torhüter.
+6. Das Foto im Ordner assets/team ablegen, z. B. spieler-05.jpg.
+7. Den Dateinamen im <img src="..."> anpassen.
+
+Empfohlenes Fotoformat:
+- Hochformat 4:5
+- z. B. 1000 × 1250 px
